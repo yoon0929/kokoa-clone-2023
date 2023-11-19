@@ -28,16 +28,15 @@
       <p class="welcome-header__text">If you have a Kakao Account, log in with your email or phone number.</p>
     </header>
 
-    <!-- action태그를 사용하면 다음페이로 넘어감 -->
-    <!-- method태그에는 post/get가 있다. -->
-    <!-- post는 백엔더 서버에 정보를 전달하는 방식, 지금 서버를 갖고 있지 않아 
-    get방식으로 사용할거야.-->
     <form action="friends.html" method="get" id="login-form">
       <input name="username" type="text" placeholder="Email or phone number" />
       <input name="password" type="Password" placeholder="Password" />
       <input type="submit" value="Lon in" />
       <a href="#">find kakao account or password</a>
     </form>
+    <div id="no-mobile">
+      <span>you screen is too big</span>
+    </div>
     <script src="https://kit.fontawesome.com/0a5cca38b5.js" crossorigin="anonymous"></script>
   </body>
 </html>
