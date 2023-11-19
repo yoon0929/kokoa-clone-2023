@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>chat -kokoa clone</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+        <div class="status-bar__column"></div>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+        <i class="fa-solid fa-bolt-lightning"> </i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__colum">
+        <a href="chats.html">
+          <i class="fa-solid fa-angle-left fa-xl"></i>
+        </a>
+      </div>
+      <div class="alt-header__colum">
+        <h1 class="alt-header__title">박보영</h1>
+      </div>
+      <div class="alt-header__colum">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+    <main class="main__screen main-chat">
+      <div class="chat-timestamp">Tuseday, June 30, 2023</div>
+      <div class="message-row">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/210524_%EB%B0%95%EB%B3%B4%EC%98%81.png" />
+        <div class="message-row__content">
+          <span class="message__autor">박보영</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">22:20</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Hi nice to meet you.</span>
+            <span class="message__time">22:20</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="replay">
+      <div class="replay__colum">
+        <i class="fa-regular fa-square-plus fa-lg"></i>
+      </div>
+      <div class="replay__colum">
+        <input type="text" placeholder="write a message..." />
+        <i class="fa-regular fa-face-smile fa-lg"></i>
+        <button><i class="fa-solid fa-arrow-up"></i></button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>you screen is too big</span>
+    </div>
+    <script src="https://kit.fontawesome.com/0a5cca38b5.js" crossorigin="anonymous"></script>
+  </body>
+</html>
